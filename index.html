@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#062e6f" />
+    <meta
+      name="description"
+      content="Онлайн-выставка победителей и призеров открытого фотоконкурса «ЭтноVзгляд»"
+    />
+    <title>ЭтноVзгляд — онлайн-выставка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="ЭтноVзгляд — на главную">
+        <span class="brand-mark">V</span>
+        <span class="brand-copy">
+          <strong>Этно<span>V</span>згляд</strong>
+          <small>открытый фотоконкурс</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#bridges" data-route="bridges">Мосты единства</a>
+        <a href="#portrait" data-route="portrait">Портрет современности</a>
+        <a href="#tradition" data-route="tradition">Живая традиция</a>
+      </nav>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <p>Открытый фотоконкурс «ЭтноVзгляд»</p>
+      <p>Сохраняя различия, видим главное</p>
+      <p>2026</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
