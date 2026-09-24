@@ -124,15 +124,16 @@ function homeTemplate() {
     <div class="fade-in">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Онлайн-выставка победителей</p>
-          <h1>Мир в фокусе <i>культур</i></h1>
+          <p class="eyebrow">Открытый фотоконкурс</p>
+          <h1>Этно<i>V</i>згляд</h1>
+          <p class="hero-subtitle">Онлайн-выставка победителей и призеров</p>
           <p class="hero-intro">Фотографии, в которых традиции встречаются с современностью, а уникальность каждого становится частью общего взгляда.</p>
           <a class="primary-button" href="#bridges">Смотреть выставку</a>
         </div>
         <div class="hero-visual" aria-hidden="true">
           <img class="hero-image-main" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1300&q=88" alt="">
-          <img class="hero-image-small" src="https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=700&q=88" alt="">
-          <div class="hero-roundel">3 номинации<br>9 историй</div>
+          <img class="hero-image-small" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=88" alt="">
+          <div class="hero-roundel">Год единства<br>народов России</div>
         </div>
       </section>
       <section class="nomination-list">
