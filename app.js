@@ -4,31 +4,31 @@ const nominations = {
     title: "Мосты единства",
     accent: "единства",
     description: "Люди рядом: взаимопонимание, дружба и общность культур в повседневной жизни.",
-    cover: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=85",
+    cover: "assets/bridges-1a.jpg",
     works: [
       {
         place: "I место",
-        title: "Один круг",
-        author: "Алина Каримова",
-        location: "Республика Татарстан",
-        description: "Праздничный хоровод объединяет поколения и напоминает: общий ритм рождается из множества разных голосов.",
-        image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1800&q=88",
+        title: "Казачий круг",
+        description: "Праздничный круг объединяет поколения, движение и настроение общего народного праздника.",
+        image: "assets/bridges-1a.jpg",
+      },
+      {
+        place: "I место",
+        title: "Фестиваль тюркской культуры в Евпатории",
+        description: "Музыка, встреча и праздничное пространство становятся живым мостом между культурами.",
+        image: "assets/bridges-1b.jpg",
       },
       {
         place: "II место",
-        title: "Дорога навстречу",
-        author: "Михаил Ветров",
-        location: "Республика Алтай",
-        description: "Случайная встреча на горной дороге превращается в короткую историю о доверии и открытости.",
-        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=88",
+        title: "Хранительница традиций",
+        description: "Портрет хранительницы культуры среди участников праздника и традиционных костюмов.",
+        image: "assets/bridges-2.jpg",
       },
       {
         place: "III место",
-        title: "Общий горизонт",
-        author: "Дарья Соколова",
-        location: "Красноярский край",
-        description: "Когда люди смотрят в одну сторону, расстояния между ними перестают иметь значение.",
-        image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1800&q=88",
+        title: "DSC_0023",
+        description: "Взгляд на культурное многообразие и живое общение людей на общем празднике.",
+        image: "assets/bridges-3.jpg",
       },
     ],
   },
@@ -37,31 +37,31 @@ const nominations = {
     title: "Портрет современности",
     accent: "современности",
     description: "Герои нашего времени, в чьих лицах соединяются корни, характер и движение вперед.",
-    cover: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1400&q=85",
+    cover: "assets/portrait-1a.jpg",
     works: [
       {
         place: "I место",
-        title: "Свет внутри",
-        author: "София Ермакова",
-        location: "Республика Дагестан",
-        description: "Тихий и честный взгляд героини становится рассказом о внутренней силе нового поколения.",
-        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1800&q=88",
+        title: "Удмуртский костюм",
+        description: "Традиционный костюм раскрывается через детали, цвет и выразительный образ современного человека.",
+        image: "assets/portrait-1a.jpg",
+      },
+      {
+        place: "I место",
+        title: "Семейный портрет крымских татар",
+        description: "Семейная сцена в традиционных костюмах рассказывает о преемственности и близости поколений.",
+        image: "assets/portrait-1b.jpg",
       },
       {
         place: "II место",
-        title: "Мастер",
-        author: "Алексей Горин",
-        location: "Удмуртская Республика",
-        description: "Портрет человека, для которого ручной труд остается языком достоинства и связи со своей землей.",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1800&q=88",
+        title: "Светлый праздник",
+        description: "Праздничный портрет передает тепло семейного события и красоту национального костюма.",
+        image: "assets/portrait-2.jpg",
       },
       {
         place: "III место",
-        title: "Новый день",
-        author: "Вера Пак",
-        location: "Приморский край",
-        description: "Героиня на пороге нового дня: открытая миру, уверенная в себе и бережно хранящая память семьи.",
-        image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1800&q=88",
+        title: "Казаки",
+        description: "Образ людей, в котором современная жизнь встречается с характером и исторической памятью.",
+        image: "assets/portrait-3.jpg",
       },
     ],
   },
@@ -70,31 +70,25 @@ const nominations = {
     title: "Живая традиция",
     accent: "традиция",
     description: "Обычаи и ремесла, которые не остаются в прошлом, а продолжаются в руках современников.",
-    cover: "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=1400&q=85",
+    cover: "assets/tradition-1.jpg",
     works: [
       {
         place: "I место",
-        title: "Нити памяти",
-        author: "Елена Юсупова",
-        location: "Республика Башкортостан",
-        description: "Узор возникает стежок за стежком, сохраняя в цвете семейную память и язык родной культуры.",
-        image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=1800&q=88",
+        title: "Кукла-мотанка",
+        description: "Традиционная кукла, созданная вручную, хранит память о ремесле и передаче знаний.",
+        image: "assets/tradition-1.jpg",
       },
       {
         place: "II место",
-        title: "Тепло очага",
-        author: "Илья Осипов",
-        location: "Архангельская область",
-        description: "Домашний ритуал, знакомый многим поколениям, продолжается без постановки и лишних слов.",
-        image: "https://images.unsplash.com/photo-1516211697506-8360dbcfe9a4?auto=format&fit=crop&w=1800&q=88",
+        title: "Степной конь",
+        description: "Образ из природных материалов продолжает традицию обережных фигур и народного творчества.",
+        image: "assets/tradition-2.jpg",
       },
       {
         place: "III место",
-        title: "Голос предков",
-        author: "Мария Хомушку",
-        location: "Республика Тыва",
-        description: "Музыка соединяет прошлое и настоящее, превращая древнее звучание в живой разговор со слушателем.",
-        image: "https://images.unsplash.com/photo-1514119412350-e174d90d280e?auto=format&fit=crop&w=1800&q=88",
+        title: "Колядники",
+        description: "Зимняя традиция оживает в костюмах, куклах и праздничном образе, собранном вручную.",
+        image: "assets/tradition-3.jpg",
       },
     ],
   },
@@ -131,8 +125,8 @@ function homeTemplate() {
           <a class="primary-button" href="#bridges">Смотреть выставку</a>
         </div>
         <div class="hero-visual" aria-hidden="true">
-          <img class="hero-image-main" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1300&q=88" alt="">
-          <img class="hero-image-small" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=88" alt="">
+          <img class="hero-image-main" src="assets/bridges-1a.jpg" alt="Фотография-победитель «Казачий круг»">
+          <img class="hero-image-small" src="assets/tradition-1.jpg" alt="Фотография-победитель «Кукла-мотанка»">
           <div class="hero-roundel">Год единства<br>народов России</div>
         </div>
       </section>
@@ -195,8 +189,8 @@ function updateGallery(route, nextIndex) {
   document.querySelector(".photo-count").textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(works.length).padStart(2, "0")}`;
   document.querySelector(".place-label").textContent = work.place;
   document.querySelector(".artwork-info h2").textContent = `«${work.title}»`;
-  document.querySelector(".author").textContent = work.author;
-  document.querySelector(".location").textContent = work.location;
+  document.querySelector(".author").textContent = "Работа-победитель";
+  document.querySelector(".location").textContent = "Открытый фотоконкурс «ЭтноVзгляд»";
   document.querySelector(".artwork-description").textContent = work.description;
   document.querySelectorAll(".thumbnail").forEach((thumb, index) => {
     thumb.classList.toggle("active", index === activeIndex);

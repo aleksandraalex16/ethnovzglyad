@@ -67,6 +67,23 @@ a {
   z-index: 10;
 }
 
+.header-logos {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-left: auto;
+}
+
+.header-logos img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 5px 14px rgba(4, 76, 135, .18);
+}
+
 .brand {
   text-decoration: none;
   display: inline-flex;
@@ -716,6 +733,8 @@ main {
     pointer-events: none;
     transition: transform 300ms ease, opacity 220ms ease, visibility 300ms;
   }
+  .header-logos { margin-left: auto; margin-right: 4px; }
+  .header-logos img { width: 38px; height: 38px; border-width: 2px; }
   .menu-open .main-nav {
     transform: translateY(0);
     visibility: visible;
@@ -750,6 +769,8 @@ main {
 
 @media (max-width: 700px) {
   .site-header { height: 76px; }
+  .header-logos { margin-left: auto; }
+  .header-logos img { width: 34px; height: 34px; }
   main { min-height: calc(100vh - 76px); }
   .hero { display: block; min-height: auto; }
   .hero-copy { padding: 65px 24px 55px; }
